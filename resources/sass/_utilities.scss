@@ -50,100 +50,27 @@ header {
     }
 }
 
-// Footer MAIN
-main-footer {
-    background-image: url("/images/footer-bg.jpg");
-    background-position: center;
-    background-size: contain;
-    height: 350px;
-    padding: 10px 0;
+.main-content {
+    background-color: $primary-bgc;
 }
 
-.DC-shop {
-    display: flex;
-    width: 40%;
-    flex-wrap: wrap;
-    padding-bottom: 80px;
-}
+.comic-card {
+    width: calc((100% / 6) - 20px);
+    margin: 50px 10px;
+    background-color: $border-color;
+    text-align: center;
 
+    .comic {
+        display: block;
+        height: 200px;
+        width: 100%;
+    }
 
-.links {
-    display: block;
-    margin: -150px 30px;
-
-    h4 {
+    .comic-text {
         color: #fff;
-        padding: 10px 0;
+        font-size: 15px;
+        padding-top: 10px;
+        text-transform: uppercase;
+        padding: 5px;
     }
-
-    ul li a {
-        font-size: 13px;
-        line-height: 25px;
-        color: $secondary-color;
-    }
-
-}
-
-#shop {
-    margin-top: 50px;
-}
-
-#nav-shop {
-    ul li a {
-        font-size: 13px;
-        line-height: 25px;
-    }
-}
-
-#logo-bg {
-    height: 400px;
-    position: relative;
-    top: -50px;
-    right: -200px;
-    z-index: 0;
-}
-
-// Footer Bottom
-
-
-.bottom-footer {
-    background-color: $primary-bgc;
-    height: 100px;
-    position: relative;
-    z-index: 1;
-
-    .d-flex {
-        justify-content: space-between;
-        padding-top: 25px;
-    }
-}
-
-
-.follow-us {
-    display: flex;
-}
-
-.follow-us ul {
-    display: flex;
-}
-
-.follow-us h4 {
-    color: #0282f9;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 0 10px;
-}
-
-.follow-us li {
-    padding: 0 10px;
-}
-
-.btn-sign-up button {
-    background-color: $primary-bgc;
-    border: 2px solid #0282f9;
-    color: #fff;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 18px;
 }
