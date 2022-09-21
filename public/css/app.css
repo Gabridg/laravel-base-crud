@@ -1,0 +1,169 @@
+header #notify {
+  background-color: #0282f9;
+  height: 20px;
+  color: #fff;
+}
+
+header #notify .container {
+  text-align: end;
+}
+
+header #notify .container span {
+  padding: 5px 10px;
+  font-size: 10px;
+}
+
+header .header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+}
+
+header img {
+  height: 80px;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header ul li {
+  padding: 0 15px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #303030;
+  padding-bottom: 38px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+  color: #0282f9;
+  border-bottom: 4px solid #0282f9;
+}
+
+main-footer {
+  background-image: url("/images/footer-bg.jpg");
+  background-position: center;
+  background-size: contain;
+  height: 350px;
+  padding: 10px 0;
+}
+
+.DC-shop {
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+.links {
+  display: block;
+  margin: -150px 30px;
+}
+
+.links h4 {
+  color: #fff;
+  padding: 10px 0;
+}
+
+.links ul li a {
+  font-size: 13px;
+  line-height: 25px;
+  color: #959595;
+}
+
+#shop {
+  margin-top: 50px;
+}
+
+#nav-shop ul li a {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#logo-bg {
+  height: 400px;
+  position: relative;
+  top: -50px;
+  right: -200px;
+  z-index: 0;
+}
+
+.bottom-footer {
+  background-color: #303030;
+  height: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.bottom-footer .d-flex {
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.follow-us {
+  display: flex;
+}
+
+.follow-us ul {
+  display: flex;
+}
+
+.follow-us h4 {
+  color: #0282f9;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.follow-us li {
+  padding: 0 10px;
+}
+
+.btn-sign-up button {
+  background-color: #303030;
+  border: 2px solid #0282f9;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
