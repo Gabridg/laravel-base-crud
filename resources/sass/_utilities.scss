@@ -54,23 +54,49 @@ header {
     background-color: $primary-bgc;
 }
 
-.comic-card {
+.comics-card {
     width: calc((100% / 6) - 20px);
     margin: 50px 10px;
-    background-color: $border-color;
+    background-color: #fff;
     text-align: center;
 
-    .comic {
+    .comics {
         display: block;
         height: 200px;
         width: 100%;
     }
 
-    .comic-text {
-        color: #fff;
+    .comics-text {
+        color: #000;
         font-size: 15px;
         padding-top: 10px;
         text-transform: uppercase;
         padding: 5px;
+        font-size: 10px;
+    }
+
+    .comics-title {
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    .price {
+        color: #f00;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+.comic-card {
+    padding-top: 50px;
+
+    .comic-text {
+        color: #fff;
+    }
+
+    .price {
+        font-size: 25px;
+        color: #f00;
+        font-weight: bold;
     }
 }

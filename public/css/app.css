@@ -3,16 +3,13 @@ header #notify {
   height: 20px;
   color: #fff;
 }
-
 header #notify .container {
   text-align: end;
 }
-
 header #notify .container span {
   padding: 5px 10px;
   font-size: 10px;
 }
-
 header .header-nav {
   display: flex;
   align-items: center;
@@ -20,20 +17,16 @@ header .header-nav {
   height: 100px;
   width: 100%;
 }
-
 header img {
   height: 80px;
 }
-
 header ul {
   display: flex;
   list-style-type: none;
 }
-
 header ul li {
   padding: 0 15px;
 }
-
 header ul li a {
   text-decoration: none;
   font-size: 15px;
@@ -41,9 +34,7 @@ header ul li a {
   color: #303030;
   padding-bottom: 38px;
 }
-
-header ul li a:hover,
-header ul li a.active {
+header ul li a:hover, header ul li a.active {
   color: #0282f9;
   border-bottom: 4px solid #0282f9;
 }
@@ -52,25 +43,45 @@ header ul li a.active {
   background-color: #303030;
 }
 
-.comic-card {
+.comics-card {
   width: calc(16.6666666667% - 20px);
   margin: 50px 10px;
-  background-color: #0282f9;
+  background-color: #fff;
   text-align: center;
 }
-
-.comic-card .comic {
+.comics-card .comics {
   display: block;
   height: 200px;
   width: 100%;
 }
-
-.comic-card .comic-text {
-  color: #fff;
+.comics-card .comics-text {
+  color: #000;
   font-size: 15px;
   padding-top: 10px;
   text-transform: uppercase;
   padding: 5px;
+  font-size: 10px;
+}
+.comics-card .comics-title {
+  font-weight: bolder;
+  font-size: 15px;
+}
+.comics-card .price {
+  color: #f00;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.comic-card {
+  padding-top: 50px;
+}
+.comic-card .comic-text {
+  color: #fff;
+}
+.comic-card .price {
+  font-size: 25px;
+  color: #f00;
+  font-weight: bold;
 }
 
 * {
@@ -101,4 +112,3 @@ a {
 .text-center {
   text-align: center;
 }
-
