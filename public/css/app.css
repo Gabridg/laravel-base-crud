@@ -84,6 +84,13 @@ header ul li a:hover, header ul li a.active {
   font-weight: bold;
 }
 
+.btn-primary {
+  background-color: #0282f9;
+  border: #0282f9;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 * {
   margin: 0;
   padding: 0;

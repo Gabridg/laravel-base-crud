@@ -100,3 +100,10 @@ header {
         font-weight: bold;
     }
 }
+
+.btn-primary {
+    background-color: $border-color;
+    border: $border-color;
+    font-weight: bold;
+    text-transform: uppercase;
+}

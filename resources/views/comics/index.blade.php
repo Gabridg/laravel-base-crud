@@ -20,6 +20,9 @@
             <h2>Attualmente non sono presenti fumetti</h2>
             @endforelse
         </div>
+        <div class="text-center">
+            <a href="{{route('comics.create')}}" class="btn btn-primary my-5">Aggiungi fumetto!</a>
+        </div>
     </div>
 </main>
 @endsection
