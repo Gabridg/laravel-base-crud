@@ -85,6 +85,13 @@ header {
         font-size: 25px;
         font-weight: bold;
     }
+
+    .comics-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
 }
 
 .comic-card {

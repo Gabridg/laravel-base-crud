@@ -71,6 +71,12 @@ header ul li a:hover, header ul li a.active {
   font-size: 25px;
   font-weight: bold;
 }
+.comics-card .comics-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
 
 .comic-card {
   padding-top: 50px;
