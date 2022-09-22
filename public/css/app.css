@@ -84,6 +84,9 @@ header ul li a:hover, header ul li a.active {
 .comic-card .comic-text {
   color: #fff;
 }
+.comic-card .comic-title {
+  font-weight: bold;
+}
 .comic-card .price {
   font-size: 25px;
   color: #f00;
