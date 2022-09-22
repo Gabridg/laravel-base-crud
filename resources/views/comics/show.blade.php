@@ -19,6 +19,12 @@
                         <p class="comic-text price">{{$comic->price}}</p>
                         <p class="comic-text">{{$comic->sale_date}}</p>
                         <a href="{{route('comics.edit', $comic->id)}}" class="btn btn-warning my-3">Modifica</a>
+                        <form action="{{route('comics.destroy', $comic->id)}}" method="POST">
+                            @method('DELETE')
+                            @csrf      
+                            <button type="submit" class="btn btn-danger my-3">Elimina</button>
+                        </form>
+                        <a href="{{route('comics.index')}}" class="btn btn-secondary my-3">Indietro</a>
                     </div>
                 </div>
             </div>    
