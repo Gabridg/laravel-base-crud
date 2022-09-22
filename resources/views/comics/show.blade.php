@@ -18,6 +18,7 @@
                         <p class="comic-text">{{$comic->description}}</p>
                         <p class="comic-text price">{{$comic->price}}</p>
                         <p class="comic-text">{{$comic->sale_date}}</p>
+                        <a href="{{route('comics.edit', $comic->id)}}" class="btn btn-warning my-3">Modifica</a>
                     </div>
                 </div>
             </div>    

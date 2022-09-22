@@ -6,8 +6,9 @@
 <div class="container">
     <h2 class="fw-bold my-4">MODIFICA UN FUMETTO:</h2>
 
-    <form action="{{route('comics.store')}}" method="POST">
+    <form action="{{route('comics.update', $comic->id)}}" method="POST">
         @csrf
+        @method('PUT')
         <div class="row">
             <div class="col-6">
                 <div class="mb-3">        
